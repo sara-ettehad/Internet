@@ -1,0 +1,111 @@
+body{
+    background-color: rgb(220, 220, 220);
+    color: #3b3a3a;
+}
+
+.main{
+    display: flex;
+    flex-direction: row;
+}
+
+#header{
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0px 20px 0px 0px;
+    background-color: white;
+}
+
+.header__detail{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.header__detail button{
+    height: 30px;
+    margin-left: 20px;
+    border-radius: 20px;padding: 0px 20px;
+    color: white;
+    background-color: rgb(7, 132, 59);
+    border: none;
+}
+
+#header img{
+    width: 60px;
+}
+
+#title{
+    background-color: white;
+    width: 15%;
+    height: 100%;
+    align-items: start;
+    text-align: start;
+    padding: 10px;
+}
+
+#title h3{
+    padding: 5px 0px;
+}
+
+.title__user{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+}
+
+.title__user button{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.title__user--name{
+    text-align: start;
+}
+
+.title__user--name h3{
+    position: relative;
+    top: 12px;
+}
+
+.title__user--name p{
+    position: relative;
+    top: -12px;
+}
+
+.Dashboard{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.RegisteredUsers{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.History__number{
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+}
+
+.numbercard{
+    background-color: white;
+    padding: 10px;
+    width: 250px;
+    margin-right: 20px;
+}
+
+.Graphs{
+    width: 85%;
+    height: 60%;
+    color: white;
+}
