@@ -3,9 +3,65 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./style.css">
     <title>All Users</title>
 </head>
 <body>
     
+    <section id="header">
+        <img src="./image/logo.png">
+        <div class="header__detail">
+            <p>Admin - User's Name</p>
+            <button>LogIn</button>
+        </div>
+    </section>
+
+    <div class="main">
+        
+        <section id="title">
+            <div class="title__user">
+                <button><i class="fa-regular fa-user"></i></button>
+                <div class="title__user--name">
+                    <h3>User's Name</h3>
+                    <p style="color:rgb(7, 132, 59);">Admin</p>
+                </div>
+            </div>
+            <p style="margin: 0px;">Dashboard</p>
+            <div class="Dashboard">
+                <h3>Overview</h3>
+            </div>
+            <p style="margin: 0px;">Registered Users</p>
+            <div class="RegisteredUsers">            
+                <h3 style="color:rgb(7, 132, 59); border-left: solid 3px rgb(7, 132, 59); background-color: rgb(220, 220, 220); width: 100%;">All Users</h3>
+            </div>
+        </section>
+        <section id="detail">
+            <div class="search">
+                <input type="search" placeholder="Search ...">
+                <button>LogIn</button>
+            </div>
+
+            
+            <div class="table">
+                <table>
+                    <tr>
+                        <th>ID</th>
+                        <th>Name</th>
+                        <th>Email</th>
+                        <th>Registered date</th>
+                        <th>Package detail</th>
+                    </tr>
+                    <tr>
+                        <td>Cell 4</td>
+                        <td>Cell 5</td>
+                        <td>Cell 6</td>
+                        <td>Cell 6</td>
+                        <td>Cell 6</td>
+                    </tr>
+                </table>
+            </div>
+        </section>
+    </div>
 </body>
 </html>

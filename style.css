@@ -24,7 +24,7 @@ body{
     align-items: center;
 }
 
-.header__detail button{
+#header button, .search button{
     height: 30px;
     margin-left: 20px;
     border-radius: 20px;padding: 0px 20px;
@@ -40,7 +40,7 @@ body{
 #title{
     background-color: white;
     width: 15%;
-    height: 100%;
+    height: 100vh;
     align-items: start;
     text-align: start;
     padding: 10px;
@@ -70,11 +70,13 @@ body{
 .title__user--name h3{
     position: relative;
     top: 12px;
+    left: 5px;
 }
 
 .title__user--name p{
     position: relative;
     top: -12px;
+    left: 5px;
 }
 
 .Dashboard{
@@ -104,8 +106,46 @@ body{
     margin-right: 20px;
 }
 
-.Graphs{
-    width: 85%;
-    height: 60%;
-    color: white;
+.graphs{
+    height: 60vh;
+    width: 100%;
+    background-color: white;
+    margin-left: 20px;
+}
+
+.search{
+    padding: 20px;
+    margin: 20px;
+    width: 100%;
+    background-color: white;
+}
+
+.search input{
+    height: 30px;
+    border: solid 1px #3b3a3a;
+    border-radius: 20px;
+    padding: 0px 10px;
+}
+
+.table{
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    margin: 20px;
+    padding: 20px;
+}
+
+.table table {
+    width: 100vh;
+    overflow-x: auto;
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 18px;
+    text-align: left;
+}
+
+.table th, .table td {
+    padding: 12px 15px;
+    border: 1px solid #dddddd;
+    text-align: center;
 }
