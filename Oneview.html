@@ -8,53 +8,55 @@
     <title>Dashboard</title>
 </head>
 <body>
+    <div class="container">
+        <section id="header">
+            <img src="./image/logo.png">
+            <div class="header__detail">
+                <p>Admin - User's Name</p>
+                <button>LogIn</button>
+            </div>
+        </section>
     
-    <section id="header">
-        <img src="./image/logo.png">
-        <div class="header__detail">
-            <p>Admin - User's Name</p>
-            <button>LogIn</button>
+        <div class="main">
+            
+            <section id="title">
+                <div class="title__user">
+                    <button><i class="fa-regular fa-user"></i></button>
+                    <div class="title__user--name">
+                        <h3>User's Name</h3>
+                        <p style="color:rgb(7, 132, 59);">Admin</p>
+                    </div>
+                </div>
+                <p>Dashboard</p>
+                <div class="Dashboard">
+                    <h3 style="color:rgb(7, 132, 59); border-left: solid 3px rgb(7, 132, 59); background-color: rgb(220, 220, 220); width: 100%;"><a href="./Oneview.html" style="color: rgb(7, 132, 59);   text-decoration: none;">Overview</a></h3>
+                </div>
+                <p style="margin: 0px;">Registered Users</p>
+                <div class="RegisteredUsers">            
+                    <h3><a href="./Allusers.html" style="color: #3b3a3a;   text-decoration: none;">All Users</a></h3>
+                </div>
+            </section>
+            <section id="detail">
+                <div class="History__number">
+                    <div class="numbercard">
+                        <p>Revenue</p>
+                        <h1>12,703K</h1>
+                    </div>
+                    <div class="numbercard">
+                        <p>Paid Subscriptions</p>
+                        <h1>348759</h1>
+                    </div>
+                    <div class="numbercard">
+                        <p>New Users</p>
+                        <h1>9550</h1>
+                    </div>
+                </div>
+    
+                <div class="graphs">
+                </div>
+            </section>
         </div>
-    </section>
-
-    <div class="main">
-        
-        <section id="title">
-            <div class="title__user">
-                <button><i class="fa-regular fa-user"></i></button>
-                <div class="title__user--name">
-                    <h3>User's Name</h3>
-                    <p style="color:rgb(7, 132, 59);">Admin</p>
-                </div>
-            </div>
-            <p style="margin: 0px;">Dashboard</p>
-            <div class="Dashboard">
-                <h3 style="color:rgb(7, 132, 59); border-left: solid 3px rgb(7, 132, 59); background-color: rgb(220, 220, 220); width: 100%;">Overview</h3>
-            </div>
-            <p style="margin: 0px;">Registered Users</p>
-            <div class="RegisteredUsers">            
-                <h3>All Users</h3>
-            </div>
-        </section>
-        <section id="detail">
-            <div class="History__number">
-                <div class="numbercard">
-                    <p>Revenue</p>
-                    <h1>12,703K</h1>
-                </div>
-                <div class="numbercard">
-                    <p>Paid Subscriptions</p>
-                    <h1>348759</h1>
-                </div>
-                <div class="numbercard">
-                    <p>New Users</p>
-                    <h1>9550</h1>
-                </div>
-            </div>
-
-            <div class="graphs">
-            </div>
-        </section>
     </div>
+    
 </body>
 </html>
